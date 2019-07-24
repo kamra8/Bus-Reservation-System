@@ -1,0 +1,40 @@
+Bus Reservation System
+
+1)login1.html--> first page of the project login as existing user or register as new user using reg.html.
+
+now there are 2 sections:
+
+1) MANAGER SECTION: (username=kamra password=kamra to login as manager)
+
+      -->manager.html(first page when login as manager)
+	it has the following structure
+	logout button		--->login1.html
+	home         		--->manager.html
+	Add New Bus  		--->manager.html---->addnewbus.java---->bus added.
+	View Registered User	--->viewregistereduser.java
+	Search Bus  		--->searchbus.html-->fill details-->searchbus.java
+	Delete Bus		--->delete.html--->delete.java
+	Update bus Details      --->updatebusdetail.html---->updatebuddetails.java
+	  
+2)CUSTOMER SECTION:This section contains many pages some of the features are common in all of them.These are
+Print Ticket------>print.html------->ticket.java
+Cancel Ticket------>cancelticket.html------>cancelticket.java
+Home-------->customersearchbus.html
+Privacy Policy---->privacypolicy.html
+Faq-------->faq.html
+About Us----->aboutus.html
+Log out---->login1.html
+
+customersearchbus.html(first page when login as customer)----->search bus---->customersearchbus.java------->proceed----->numberofpassenger.java-----
+------->bookticket.java--------->ticket.java---->ticketgenerated.
+
+
+
+Used: session management,wow slider,list,text boxes in preparereport.java will be displayed dynamically
+      according to the parameters. 	  
+	  
+	  
+	  
+
+ 
+ 
